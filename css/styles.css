@@ -67,7 +67,7 @@ a, a:hover, a:focus {
     padding: 0;
 }
 
-.card-list {
+#card-list {
     padding: 20px 0;
     overflow-y: auto;
     height: 95vh;
@@ -81,6 +81,7 @@ a, a:hover, a:focus {
 }
 
 .card-number {
+    font-size: 0.9rem;
     border-radius: 10%;
     color: white;
     background-color: #18cc81;
@@ -89,6 +90,7 @@ a, a:hover, a:focus {
 }
 
 .card-date {
+    font-size: 0.9rem;
     border-radius: 6%;
     color: white;
     background-color: #2ccddb;
@@ -143,6 +145,26 @@ a, a:hover, a:focus {
     width: 60px;
 }
 
-@media (max-width: 815px) {
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    align-items: center;
+    grid-gap: 10px;
+}
+
+/*info-pane*/
+/*#card-info {*/
+/*    margin: auto;*/
+/*}*/
+
+.info-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#close-info {
+    margin-top: 20px;
+    margin-bottom: 40px;
 
 }
