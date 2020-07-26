@@ -47,11 +47,19 @@ a, a:hover, a:focus {
     color: aquamarine;
 }
 
+.logo {
+    background-color: white;
+}
+
 /*navbar*/
+.navbar {
+    background-color: #edeef2;
+    padding: 0;
+}
+
 #toggle-sidebar {
     margin: 10px;
 }
-
 
 /*content*/
 .content {
@@ -62,15 +70,22 @@ a, a:hover, a:focus {
     scroll-behavior: unset;
 }
 
-.navbar {
-    background-color: #edeef2;
-    padding: 0;
+.content-head {
+    font-size: 1.8rem;
+    margin-left: 25px;
 }
+
 
 #card-list {
     padding: 20px 0;
     overflow-y: auto;
     height: 95vh;
+}
+
+#card-info {
+    border-radius: 20px;
+    background-color: #ababab;
+    height: 100%;
 }
 
 /*cards*/
@@ -123,34 +138,6 @@ a, a:hover, a:focus {
     margin: auto 15px;
 }
 
-/*utilities*/
-.sm-box-vr {
-    height: 20px;
-}
-
-.md-box-vr {
-    height: 40px;
-}
-
-.lg-box-vr {
-    height: 60px;
-}
-
-.sm-box-hr {
-    display: inline;
-    width: 20px;
-}
-
-.md-box-hr {
-    display: inline;
-    width: 40px;
-}
-
-.lg-box-hr {
-    display: inline;
-    width: 60px;
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -159,12 +146,6 @@ a, a:hover, a:focus {
 }
 
 /*info-pane*/
-#card-info {
-    border-radius: 20px;
-    background-color: #ababab;
-    height: 100%;
-}
-
 .info-top {
     display: flex;
     flex-direction: row;
@@ -199,3 +180,32 @@ a, a:hover, a:focus {
     height: 100%;
     margin: 0;
 }
+
+/*utilities*/
+.sm-box-vr {
+    height: 20px;
+}
+
+.md-box-vr {
+    height: 40px;
+}
+
+.lg-box-vr {
+    height: 60px;
+}
+
+.sm-box-hr {
+    display: inline;
+    width: 20px;
+}
+
+.md-box-hr {
+    display: inline;
+    width: 40px;
+}
+
+.lg-box-hr {
+    display: inline;
+    width: 60px;
+}
+
