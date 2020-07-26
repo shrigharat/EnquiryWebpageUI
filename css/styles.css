@@ -14,7 +14,7 @@ a, a:hover, a:focus {
 .wrapper {
     display: flex;
     width: 100%;
-    background-color: #e6e8eb;
+    background-color: #edeef2;
     text-decoration: none;
     transition: all 0.3s;
 }
@@ -55,7 +55,7 @@ a, a:hover, a:focus {
 
 /*content*/
 .content {
-    padding: 10px;
+    padding: 0 10px 5px;
     width: 100%;
     height: 100%;
     overflow-y: hidden;
@@ -63,7 +63,7 @@ a, a:hover, a:focus {
 }
 
 .navbar {
-    background-color: #e6e8eb;
+    background-color: #edeef2;
     padding: 0;
 }
 
@@ -87,6 +87,12 @@ a, a:hover, a:focus {
     background-color: #18cc81;
     padding: 2px 10px;
     border: 2px solid #069441;
+}
+
+.date-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .card-date {
@@ -153,18 +159,43 @@ a, a:hover, a:focus {
 }
 
 /*info-pane*/
-/*#card-info {*/
-/*    margin: auto;*/
-/*}*/
+#card-info {
+    border-radius: 20px;
+    background-color: #ababab;
+    height: 100%;
+}
 
 .info-top {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.enquiry-head {
+    font-size: 1.2rem;
+    color: white;
 }
 
 #close-info {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+}
 
+/*table*/
+.info-tab {
+    padding: 8px;
+    margin: 0;
+}
+
+.info-table {
+    overflow-y: scroll;
+    width: 100%;
+    height: 350px;
+}
+
+.tab-pane {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
